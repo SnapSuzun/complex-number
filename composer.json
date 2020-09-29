@@ -1,0 +1,18 @@
+{
+  "name": "nevzorov/complex-number",
+  "description": "Library that implements the functionality of complex numbers",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^5.5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nevzorov\\ComplexNumber\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nevzorov\\ComplexNumber\\Tests\\": "tests/"
+    }
+  }
+}
